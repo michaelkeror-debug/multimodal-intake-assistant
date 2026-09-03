@@ -1,0 +1,12 @@
+Minimum Similarity Threshold: 0.90. A cosine similarity threshold of ≥ 0.90 is used for near-duplicate image detection. 
+The threshold is deliberately conservative because the objective is not general semantic image retrieval, 
+but identification of images that are highly similar to the query image. Lower thresholds can return visually or semantically
+ related images that are nevertheless distinct. The 0.90 value should therefore be treated as an initial operating threshold 
+ and validated against a labelled set of known duplicate and non-duplicate image pairs. Threshold performance should be reviewed 
+ using false-positive and false-negative results before production deployment.
+
+ Query image: images/poster_12.jpeg
+Minimum similarity threshold: 0.90
+
+Near-duplicate matches:
+images/poster_16.jpeg', 0.9996390342712402
