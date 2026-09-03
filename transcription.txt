@@ -1,0 +1,11 @@
+Detected language: english
+Transcript: Hi Doc, how are you doing this morning? I'm doing great. Welcome. What are you up to today? My child has had a home attack last night. I tried to give her water, but the fever is still there. I'm so sorry. How old is she? She's two years old. Okay. I'm so sorry. It's okay. She's a lot better now. I know. I'm glad. Thank you. Thank you, nurse. I started to get really worried. It's okay. 
+
+Extracted fields:
+{
+  "symptoms": [
+    "fever"
+  ],
+  "follow_up_priority": "routine",
+  "requires_clinical_review": false
+}
